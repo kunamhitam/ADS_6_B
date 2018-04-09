@@ -1,0 +1,19 @@
+2. Deskripsi Umum
+
+2.1 Deskripsi Umum Sistem
+Dokter Queue merupakan aplikasi untuk memudahkan mengantri dokter pada suatu rumah sakit. Aplikasi ini berbasis web. Pada aplikasi ini, user mendaftar sebagai pasien. Untuk registrasi antrian, user perlu memasukkan nama lengkap, usia, no hp, dan keluhannya. Kemudian user akan diberi notifikasi untuk nomer urut antrian dan waktu antrian. Waktu antrian ini akan di update secara real time. Apabila user tidak jadi periksa, user dapat membatalkan antrian yang telah dijadwalkan. Selain itu, aplikasi ini dapat mengetahui informasi mengenai spesialisasi dokter dan jam prakteknya. Sehingga user tidak salah dalam mengambil waktu antrian dokter. Aplikasi ini juga menyediakan fitur notifikasi melalui sms. Dokter Queue ini dikelola oleh admin. Fungsi admin untuk mengisikan informasi dokter yang bersangkutan.
+
+2.2 Karakteristik Pengguna
+	1.	Pasien
+		tugas pasien = menginputkan data diri untuk antri
+		hak akses aplikasi = melakukan pendaftaran dan pembatalan antrian
+	2.	Admin
+		tugas admin = menginputkan data dokter
+		hak akses admin = log in admin, control panel server
+		
+2.3 Batasan
+	Dalam pembuatan perangkat lunak ini, terdapat beberapa batasan yang digunakan, yaitu:
+	1.	User tidak dapat mengubah data user lain
+	2.	Aplikasi hanya menyediakan form untuk antrian
+	
+2.4 Lingkungan Operasi
