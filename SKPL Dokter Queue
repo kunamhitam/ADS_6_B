@@ -1,3 +1,19 @@
+1. Pendahuluan
+
+1.1 Tujuan Penulisan Dokumen
+Dokumen ini ditulis dalam rangka menjabarkan spesifikasi kebutuhan perangkat lunak. Penjabaran spesifikasi perangkat lunak
+meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak. Perangkat
+lunak yang akan dibangun untuk membuat aplikasi Dokter Queue berbasis web. Dalam rangka membangun perangkat lunak tersebut, 
+tentunya spesifikasi kebutuhan untuk perangkat lunak tersebut dibutuhkan, khususnya oleh para pengembang dan pembangun perangkat lunak 
+tersebut.
+
+1.2 Lingkup Masalah
+Dokter Queue adalah sebuah aplikasi antrian dokter secara online berbasis web 
+yang digunakan untuk melakukan pendaftaran dalam mengantri praktek dokter pada suatu rumah sakit.
+Pengguna aplikasi ini bisa melakukan pendaftaran antrian praktek dokter secara online dengan mengisi form pendaftaran yang berupa nama, alamat, nomor hp,
+dan keluhan. Setelah mengisi form pendaftaran pengguna bisa melihat tabel yang berisi urutan antrian pasien yang telah mendaftar.
+Sistem ini dikelola oleh admin yang akan mengatur jadwal praktek dokter yang akan ditampilkan. 
+
 2. Deskripsi Umum
 
 2.1 Deskripsi Umum Sistem
