@@ -21,7 +21,7 @@ Dokter Queue ini dikelola oleh admin. Fungsi admin untuk mengisikan informasi do
 		
 2.3 Batasan
 	Dalam pembuatan perangkat lunak ini, terdapat beberapa batasan yang digunakan, yaitu:
-	1.	User tidak dapat mengubah data user lain
-	2.	Aplikasi hanya menyediakan form untuk antrian
+	1.	User tidak dapat mengubah data user lain.
+	2.	Aplikasi hanya menyediakan form untuk antrian.
 	
 2.4 Lingkungan Operasi
