@@ -25,3 +25,28 @@ Dokter Queue ini dikelola oleh admin. Fungsi admin untuk mengisikan informasi do
 	2.	Aplikasi hanya menyediakan form untuk antrian.
 	
 2.4 Lingkungan Operasi
+Aplikasi Dokter Queue ini akan berfungsi dengan spesifiksai :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+
+	1.	Processore Intel Pentium 4 3 Ghz
+	2.	Motherboard support internet connection
+	3.	500 GB Hard Disk Drive utama 
+	4.	500 GB Hard Disk Drive backup
+	5.	VGA Card 256 MB
+	6.	Mouse 
+	7.	Keyboard
+
+Komputer yang minimal telah terinstall software sebagai berikut :
+	1.	Browser Google Chrome/Mozilla Firefox
+	2.	Word Processor
+	3.	Apache HTTP Server
+	4.	Mail Server
+
+DBMS (Database Management System) minimal MySQL 5.0.20 ke atas
+Koneksi internet dengan bandwidth minimal 1 Mbps
+OS minimal Windows 2003 Server atau Ubuntu Server
+
+Client :
+Komputer dengan spesifikasi hardware minimal sebagai berikut :
+	1.	Processor Intel Pentium 4 2 Ghz
+	2.	Motherboard support internet connection
