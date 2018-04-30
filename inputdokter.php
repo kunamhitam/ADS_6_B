@@ -8,14 +8,14 @@ if(isset($_POST['register'])){
     $dokter_nama = filter_input(INPUT_POST, 'dokter_nama', FILTER_SANITIZE_STRING);
     $dokter_spesialis = filter_input(INPUT_POST, 'dokter_spesialis', FILTER_SANITIZE_STRING);
     $dokter_notelp = filter_input(INPUT_POST, 'dokter_notelp', FILTER_SANITIZE_STRING);
-	$dokter_waktupraktek = filter_input(INPUT_POST, 'dokter_spesialis', FILTER_SANITIZE_STRING);
+    $dokter_waktupraktek = filter_input(INPUT_POST, 'dokter_waktupraktek', FILTER_SANITIZE_STRING);
 
 
     // menyiapkan query
     $sql = "INSERT INTO profildokter (dokter_nama, dokter_spesialis, dokter_notelp, dokter_waktupraktek) 
     VALUES (:dokter_nama, :dokter_spesialis, :dokter_notelp, :dokter_waktupraktek)";
     $stmt = $db->prepare($sql);
-
+	
     // bind parameter ke query
     $params = array(
         ":dokter_nama" => $dokter_nama,
@@ -57,7 +57,7 @@ if(isset($_POST['register'])){
 					<input type="text" name="dokter_notelp" placeholder="NOMOR TELEPON" title="harus huruf" size="15" required>
 				</p>
 				<p align="center">
-					<input type="text" name="dokter_waktupraktek" placeholder="WAKTU PRAKTEK" title="harus huruf" size="15" required>
+					<input type="datetime-local" name="dokter_waktupraktek" placeholder="WAKTU PRAKTEK" title="harus huruf" size="15" required>
 				</p>
 				
 			
