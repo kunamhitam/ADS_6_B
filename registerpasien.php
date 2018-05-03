@@ -29,7 +29,7 @@ if(isset($_POST['register'])){
 
     // jika query simpan berhasil, maka user sudah terdaftar
     // maka alihkan ke halaman login
-    //if($saved) header("Location: login.php");
+    if($saved) header("Location: jadwalantrian.php");
 }
 
 ?>
@@ -54,7 +54,7 @@ if(isset($_POST['register'])){
 					<input type="text" name="pasien_alamat" placeholder="ALAMAT" title="harus huruf" size="15" required>
 				</p>
 				<p align="center">
-					<input type="text" name="pasien_notelp" placeholder="NOMOR TELEPON" title="harus huruf" size="15" required>
+					<input type="text" name="pasien_notelp" placeholder="NOMOR TELEPON" title="harus angka" size="15" required>
 				</p>
 				<p align="center">
 					<input type="text" name="pasien_keluhan" placeholder="KELUHAN" title="harus huruf" size="15" required>
