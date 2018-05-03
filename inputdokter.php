@@ -8,7 +8,7 @@ if(isset($_POST['register'])){
     $dokter_nama = filter_input(INPUT_POST, 'dokter_nama', FILTER_SANITIZE_STRING);
     $dokter_spesialis = filter_input(INPUT_POST, 'dokter_spesialis', FILTER_SANITIZE_STRING);
     $dokter_notelp = filter_input(INPUT_POST, 'dokter_notelp', FILTER_SANITIZE_STRING);
-    $dokter_waktupraktek = filter_input(INPUT_POST, 'dokter_waktupraktek', FILTER_SANITIZE_STRING);
+	$dokter_waktupraktek = filter_input(INPUT_POST, 'dokter_waktupraktek', FILTER_SANITIZE_STRING);
 
 
     // menyiapkan query
@@ -29,7 +29,7 @@ if(isset($_POST['register'])){
 
     // jika query simpan berhasil, maka user sudah terdaftar
     // maka alihkan ke halaman login
-    //if($saved) header("Location: login.php");
+    if($saved) header("Location: jadwaldokter.php");
 }
 
 ?>
