@@ -66,3 +66,83 @@ Client :
 Komputer dengan spesifikasi hardware minimal sebagai berikut :
 	1.	Processor Intel Pentium 4 2 Ghz
 	2.	Motherboard support internet connection
+
+3. Deskripsi Rinci Kebutuhan
+
+3.1 Kebutuhan Antarmuka Eksternal
+Sistem Informasi Dokter Queue ini membutuhkan fasilitas-fasilitas antarmuka eksternal sebagai berikut :
+
+3.1.1 Antarmuka pemakai
+User interface yang digunakan untuk mengoperasikan Sistem Informasi Dokter Queue antara lain:
+	- Tampilan awal web
+	- Tampilan register
+	- Tampilan jadwal dokter
+	- Tampilan jadwal antrian
+	
+	Alat-alat yang mendukung antarmuka user adalah sebagai berikut:
+	- Keyboard
+	- Mouse
+	- Monitor
+
+3.1.2 Antarmuka perangkat keras
+Antarmuka perangkat keras yang digunakan adalah sebagai berikut :
+	- Laptop / Komputer
+	- ADSL Modem
+	- Kabel LAN UTP RJ-45
+	
+3.1.3 Antarmuka perangkat lunak
+Sistem Informasi Dokter Queue dapat dibuka melalui browser seperti Mozilla Firefox, Google Chrome, Opera, dan I.E
+	
+3.1.4 Antarmuka komunikasi
+Komunikasa data dapat dilakukan apabila sistem terhubung dengan internet.
+
+3.2 Kebutuhan Fungsional
+Berikut merupakan kebutuhan fungsional Sistem Informasi Dokter Queue:
+	- Sistem informasi dapat menampilkan form registrasi
+		Penjelasan : user mengklik tombol register yang ada pada halaman awal sehingga sistem menampilkan form registrasi.
+		Form registrasi pasien meliputi nama, alamat, no hp, dan keluhan pasien.
+	- Sistem dapat menyimpan data pasien
+		Penjelasan : setelah user mengisi form registrasi, sistem harus mampu menyimpan informasi tersebut ke dalam database
+	- Sistem dapat menampilkan waktu antrian pasien
+		Penjelasan : sistem dapat mengurutkan data pasien yang masuk sehingga menjadi nomor antrian.
+		Yang ditampilkan pada halaman ini adalah no urut pasien, nama pasien, alamat pasien, dan waktu antrian pasien.
+	- Sistem mampu memberikan prediksi waktu antrian real-time
+		Penjelasan : sistem mampu memberikan prediksi waktu antrian terhadap pasien.
+		Waktu antrian diurutkan berdasarkan waktu registrasi.
+	- Sistem dapat menampilkan form input data dokter
+		Penjelasan : form input data dokter hanya muncul pada halaman admin.
+	- Sistem dapat menyimpan informasi dokter
+		Penjelasan : informasi dokter yang telah diinputkan admin, disimpan dalam database.
+	- Sistem dapat menampilkan jadwal praktek dokter
+		Penjelasan : berdasarkan informasi dokter yang telah diinputkan,
+		halaman user mampu menampilkan nama, no hp, spesialisasi, dan waktu praktek dokter.
+
+
+3.2.1 Diagram Konteks
+3.2.2 DFD Level 1
+3.2.2.1 DFD Level 2
+3.2.3 Spesifikasi Proses
+3.2.4 Data Store
+Berikut adalah data store sistem informasi dokter queue:
+	- profildokter : profildokter berisi informasi dokter, meliputi dokter_id, dokter_nama,
+			 dokter_spesialis, dokter_notelp, dan dokter_waktupraktek.
+	- profilpasien : profilpasien berisi informasi pasien, meliputi pasien_id, pasien_nama,
+			 pasien_alamat, pasien_notelp, dan pasien_keluhan.
+
+3.3 Kebutuhan Data
+3.3.1 E-R Diagram
+
+3.4 Kebutuhan Non Fungsional
+Berikut merupakan kebutuhan non fungsional Sistem Informasi Dokter Queue:
+	- Sistem harus mampu berjalan setiap hari selama 24 jam tanpa gagal.
+	- Sistem menggunakan web responsif
+	- Sistem mampu dibuka pada semua platform, meliputi PC, android, dan IOS.
+	- Interaksi user dan system maksimal 2 detik
+	- User tidak dapat mengubah data user lain
+	- User dapat melakukan sunting antrian
+	
+3.5 Batasan Perancangan
+Batasan perancangan untuk Sistem Informasi Dokter Queue sebagai berikut :
+	- tampilan web dibuat dengan menggunakan bantuan bootstrap
+	- text editor yang digunakan sublime text dan/atau notepad ++
+	- bahasa pemrograman yang digunakan adalah html, css, php, dan JavaScript
