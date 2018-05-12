@@ -5,7 +5,8 @@ require_once 'connect.php';
    $sql = 'SELECT dokter_nama,
                   dokter_spesialis,
                   dokter_notelp,
-                  dokter_waktupraktek
+                  dokter_waktupraktek,
+				  dokter_foto
              FROM profildokter
          ORDER BY dokter_nama';
 
@@ -126,9 +127,9 @@ require_once 'connect.php';
 	
 <tbody>
 
-	<?php while ($row = $query->fetch()): ?>
+	<?php while ($row = $query->fetch()):?>
 		<tr>
-			<td><?php echo $row['dokter_foto']; ?></td>
+			<td><?php echo '<img src="data:image/jpeg;base64,'.base64_encode( $row['dokter_foto'] ).'"/>' ?></td>
 			<td><?php echo $row['dokter_nama']?></td>
 			<td><?php echo $row['dokter_spesialis']; ?></td>
 			<td><?php echo $row['dokter_notelp']; ?></td>
