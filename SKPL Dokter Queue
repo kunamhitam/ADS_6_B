@@ -142,7 +142,7 @@ Berikut merupakan kebutuhan non fungsional Sistem Informasi Dokter Queue:
 	- User dapat melakukan sunting antrian
 	
 3.5 Batasan Perancangan
-Batasan perancangan untuk Sistem Informasi Dokter Queue sebagai berikut :
+Batasan perancangan untuk Sistem Informasi Dokter Queue sebagai berikut:
 	- tampilan web dibuat dengan menggunakan bantuan bootstrap
 	- text editor yang digunakan sublime text dan/atau notepad ++
 	- bahasa pemrograman yang digunakan adalah html, css, php, dan JavaScript
