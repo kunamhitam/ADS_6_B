@@ -146,3 +146,25 @@ Batasan perancangan untuk Sistem Informasi Dokter Queue sebagai berikut:
 	- tampilan web dibuat dengan menggunakan bantuan bootstrap
 	- text editor yang digunakan sublime text dan/atau notepad ++
 	- bahasa pemrograman yang digunakan adalah html, css, php, dan JavaScript
+
+3.7 Ringkasan Kwbutuhan 
+	Perangkat lunak yang dibuat memeiliki dua jenis kebutuhan, yaitu kebutuhan fungsional
+	dan kebutuhan non fungsional. kebutuhan ini mencerminkan semua hal yang harus dipenuhi,
+	dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua 
+	kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak
+	Dokter Queue.
+3.71
+	-Perngkat lunak dapat menampilkan form sign in
+	-Perangkat lunak dapat menampilkan form entry pendaftaran
+	-Perangkat lunak dapat menerima masukan dari pengguna, berupa data pengantri
+	-Perangkat lunak dapat menyimpan data hasil antrian pasien 
+	-Perangkat lunak dapat menampilkan pesan berupa antrian dari pasien
+	-Perangkat lunak dapat mode pencarian terhadap dokter, sesuai dengan 
+	 input dari pasien
+	-Perangkat lunak dapat menerima masukan dari username dan password pasien
+	-Perangkat lunak menampilkan dokter yang tersedia 
+	-Perngkat lunak dapat menampilkan nomor antrian 
+	-Perangkat lunak dapat menyimpan data nomor antrian pasien 
+	-Perangkat lunak dapat menyimpan data dokter yang tersedia
+	-Perangkat lunak dapat 
+	
