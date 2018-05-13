@@ -153,7 +153,8 @@ Batasan perancangan untuk Sistem Informasi Dokter Queue sebagai berikut:
 	dan nantinya akan menjadi arahan untuk tahapan testing, karena pada dasarnya, semua 
 	kebutuhan harus dapat ditest. Berikut ini ringkasan semua kebutuhan perangkat lunak
 	Dokter Queue.
-3.71
+	
+3.7.1	Kebutuhan Fungsional
 	-Perngkat lunak dapat menampilkan form sign in
 	-Perangkat lunak dapat menampilkan form entry pendaftaran
 	-Perangkat lunak dapat menerima masukan dari pengguna, berupa data pengantri
@@ -163,8 +164,18 @@ Batasan perancangan untuk Sistem Informasi Dokter Queue sebagai berikut:
 	 input dari pasien
 	-Perangkat lunak dapat menerima masukan dari username dan password pasien
 	-Perangkat lunak menampilkan dokter yang tersedia 
-	-Perngkat lunak dapat menampilkan nomor antrian 
+	-Perangkat lunak dapat menampilkan nomor antrian 
 	-Perangkat lunak dapat menyimpan data nomor antrian pasien 
 	-Perangkat lunak dapat menyimpan data dokter yang tersedia
-	-Perangkat lunak dapat 
+	-Perangkat lunak dapat menampilkan data nomor antrian secara live
+	
+3.7.2	Kebutuhan Non-Fungsional
+	-Tampilan antarmuka web Dokter Queue mudah dipahami user dan estetikanya
+	 bagus 
+	-Perangkat lunak dapat dipakai di platform windows dan android
+	-Perngkat lunak mampu mengirimkan notifikasi kepada pengguna berupa live
+	 antrian 
+	-Perangkat lunak mampu mengupdate data antrian kepada user <3 detik
+	-Perangkat lunak menggunakan standar enkripsi HTTPS
+
 	
